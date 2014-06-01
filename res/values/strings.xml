@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExtremeFactories</string>
+    <string name="logoEFF">ExtremeFactories Logo</string>
+
+    <!-- Loggin activity texts -->
+    <string name="emailUser">email</string>
+    <string name="passwordUser">password</string>
+    <string name="loginButton">Login</string>
+
+    <!-- Campaing List -->
+
+
+    <!-- Ideas List -->
+    <string name="campaignTitle">campaign Title</string>
+
+    <!-- Idea details -->
+    <string name="comments">Comments</string>
+    <string name="vote_up"> UP </string>
+    <string name="vote_down">DOWN</string>
+
+    <!-- Idea editor -->
+    <string name="shortText">Idea title</string>
+    <string name="description">Describe you idea</string>
+    <string name="postIdea">Post Idea</string>
+
+</resources>

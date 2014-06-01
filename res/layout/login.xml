@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3ECF1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="eff.android.LoginUser" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="162dp"
+        android:layout_height="197dp"
+        android:contentDescription="@string/logoEFF"
+        android:src="@drawable/efflogo" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/emailUser"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/passwordUser"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:onClick="loginUser"
+        android:text="@string/loginButton" />
+
+</LinearLayout>

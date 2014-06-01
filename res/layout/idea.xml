@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E3ECF1"
+    android:orientation="vertical" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:id="@+id/short_text_idea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#43bd00"
+        android:textSize="25dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#acacac" />
+
+    <!-- Coments Label -->
+
+    <Button
+        android:id="@+id/voteup"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="voteUp"
+        android:text="@string/vote_up" />
+
+    <Button
+        android:id="@+id/votedown"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="voteDown"
+        android:text="@string/vote_down" />
+
+    <TextView
+        android:id="@+id/comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comments" />
+
+    <!-- Comments listview -->
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+</LinearLayout>
