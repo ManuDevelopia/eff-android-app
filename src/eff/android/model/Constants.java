@@ -13,7 +13,7 @@ public class Constants {
 	 * Server URL
 	 */
 
-	public static final String SERVER[] = { "atb-bremen.de", "localhost:8080",
+	public static final String SERVER[] = { "localhost:8080",
 			"dmz.safeviewtv.es:8180" };
 
 	public static final String URL = "http://" + SERVER[0]
