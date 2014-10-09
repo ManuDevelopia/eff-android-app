@@ -33,6 +33,7 @@ public class CampaignIdeasList extends ListActivity {
 	// User token identification
 	private static String token;
 	private static String userId;
+	
 
 	// Loading spiner
 	private ProgressDialog pDialog;
